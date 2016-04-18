@@ -1,20 +1,84 @@
 /*jshint node:true*/
+
 module.exports = {
   scenarios: [
     {
-      name: 'default',
+      name: 'ember-1.10',
       bower: {
-        dependencies: { }
+        dependencies: {
+          "ember": "~1.10.0"
+        }
+      }
+    },
+    {
+      name: 'ember-1.11',
+      bower: {
+        dependencies: {
+          "ember": "~1.11.3"
+        }
+      }
+    },
+    {
+      name: 'ember-1.12',
+      bower: {
+        dependencies: {
+          "ember": "~1.12.1"
+        }
       }
     },
     {
       name: 'ember-1.13',
       bower: {
         dependencies: {
-          'ember': '~1.13.0'
-        },
-        resolutions: {
-          'ember': '~1.13.0'
+          "ember": "~1.13.8"
+        }
+      }
+    },
+    {
+      name: 'ember-2.0',
+      bower: {
+        dependencies: {
+          "ember": "~2.0.0"
+        }
+      }
+    },
+    {
+      name: 'ember-2.1',
+      bower: {
+        dependencies: {
+          "ember": "~2.1.0"
+        }
+      }
+    },
+    {
+      name: 'ember-2.2',
+      bower: {
+        dependencies: {
+          "ember": "~2.2.0"
+        }
+      }
+    },
+    {
+      name: 'ember-2.3',
+      bower: {
+        dependencies: {
+          "ember": "~2.3.0"
+        }
+      }
+    },
+    {
+      name: 'ember-2.4',
+      bower: {
+        dependencies: {
+          "ember": "~2.4.0"
+        }
+      }
+    },
+    {
+      name: 'ember-2.5',
+      bower: {
+        dependencies: {
+          "ember": "~2.5.0"
         }
       }
     },
@@ -22,10 +86,10 @@ module.exports = {
       name: 'ember-release',
       bower: {
         dependencies: {
-          'ember': 'components/ember#release'
+          "ember": "components/ember#release"
         },
         resolutions: {
-          'ember': 'release'
+          "ember": "release"
         }
       }
     },
@@ -33,10 +97,10 @@ module.exports = {
       name: 'ember-beta',
       bower: {
         dependencies: {
-          'ember': 'components/ember#beta'
+          "ember": "components/ember#beta"
         },
         resolutions: {
-          'ember': 'beta'
+          "ember": "beta"
         }
       }
     },
@@ -44,10 +108,10 @@ module.exports = {
       name: 'ember-canary',
       bower: {
         dependencies: {
-          'ember': 'components/ember#canary'
+          "ember": "components/ember#canary"
         },
         resolutions: {
-          'ember': 'canary'
+          "ember": "canary"
         }
       }
     }

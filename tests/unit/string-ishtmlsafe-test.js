@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import Ember from 'ember';
-import { isHtmlSafe } from 'ember-string-ishtmlsafe/utils/string';
+import isHtmlSafe from 'ember-string-ishtmlsafe-polyfill';
 
 const {
   htmlSafe

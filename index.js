@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-string-ishtmlsafe'
+  name: 'ember-string-ishtmlsafe-polyfill'
 };
