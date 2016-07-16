@@ -1,6 +1,6 @@
 # ember-string-ishtmlsafe-polyfill
 
-This provides a polyfill for the `Ember.String.isHtmlSafe` feature that has landed in ember/master. It is likely to ship with Ember 2.8 or 2.9.
+This provides a polyfill for the `Ember.String.isHTMLSafe` feature that has landed in ember/master. It is likely to ship with Ember 2.8 or 2.9.
 
 RFC: [emberjs/rfcs#139](https://github.com/emberjs/rfcs/pull/139).
 
@@ -16,11 +16,11 @@ ember install ember-string-ishtmlsafe-polyfill
 
 ## Usage
 ```javascript
-import isHtmlSafe from 'ember-string-ishtmlsafe-polyfill';
+import isHTMLSafe from 'ember-string-ishtmlsafe-polyfill';
 
 export default Ember.Service.extend({
   someMethod(str) {
-    if (isHtmlSafe(str)) {
+    if (isHTMLSafe(str)) {
       str = str.toString();
     }
     // Do something with native string

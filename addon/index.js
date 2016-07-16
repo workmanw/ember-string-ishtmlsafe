@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
-function isHtmlSafePolyfill(str) {
+function isHTMLSafePolyfill(str) {
   return str && typeof str.toHTML === 'function';
 }
 
-export default Ember.String.isHtmlSafe || isHtmlSafePolyfill;
+export default Ember.String.isHTMLSafe || isHTMLSafePolyfill;
