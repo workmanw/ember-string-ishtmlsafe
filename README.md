@@ -46,7 +46,7 @@ your `package.json` and doing a major version bump.
 
 ## Compatibility
 
-This addon is tested against each minor ember version starting with 1.10 through 2.8
+This addon is tested against each minor Ember version starting with 1.10 through 2.8
 (when `isHTMLSafe()` landed). Additionally tested against, `ember-stable`, `ember-beta`,
 and `ember-canary`. A complete list can be found in the
 [`ember-try.js`](https://github.com/workmanw/ember-string-ishtmlsafe-polyfill/blob/master/config/ember-try.js)
