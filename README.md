@@ -6,7 +6,7 @@ RFC: [emberjs/rfcs#139](https://github.com/emberjs/rfcs/pull/139).
 
 PR: [emberjs/ember.js#13666](https://github.com/emberjs/ember.js/pull/13666).
 
-API: [Ember.String.htmlSafe](http://emberjs.com/api/classes/Ember.String.html#method_isHTMLSafe)
+API: [Ember.String.isHTMLSafe](http://emberjs.com/api/classes/Ember.String.html#method_isHTMLSafe)
 
 
 ## Installation
