@@ -1,4 +1,4 @@
-# ember-string-ishtmlsafe-polyfill
+# ember-string-ishtmlsafe-polyfill [![Build Status](https://travis-ci.org/workmanw/ember-string-ishtmlsafe-polyfill.svg?branch=master)](https://travis-ci.org/workmanw/ember-string-ishtmlsafe-polyfill)
 
 This provides a polyfill for the `Ember.String.isHTMLSafe` feature added in Ember 2.8.
 
