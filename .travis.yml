@@ -5,6 +5,14 @@ node_js:
 
 sudo: false
 
+addons:
+  apt:
+    sources:
+    - google-chrome
+    packages:
+    - google-chrome-stable
+
+
 cache:
   directories:
     - $HOME/.npm
@@ -36,9 +44,8 @@ matrix:
 
 before_install:
   - npm config set spin false
-  - npm install -g bower phantomjs-prebuilt
+  - npm install -g bower
   - bower --version
-  - phantomjs --version
 
 install:
   - npm install
