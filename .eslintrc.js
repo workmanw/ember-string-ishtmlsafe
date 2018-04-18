@@ -15,6 +15,7 @@ module.exports = {
     browser: true
   },
   rules: {
+    'no-console': 'warn'
   },
   overrides: [
     // node files
@@ -51,6 +52,9 @@ module.exports = {
       excludedFiles: ['tests/dummy/**/*.js'],
       env: {
         embertest: true
+      },
+      rules: {
+        'ember/new-module-imports': 'warn'
       }
     }
   ]
