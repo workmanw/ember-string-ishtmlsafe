@@ -1,10 +1,13 @@
 # ember-string-ishtmlsafe Changelog
 
+### 2.0.2 (May 28th, 2018)
+
+- [#13](https://github.com/workmanw/ember-string-ishtmlsafe-polyfill/pull/13) Upgraded Ember-CLI to remove deprecation warnings (@oskarrough)
+
 ### 2.0.1 (April 4th, 2018)
 
 - [#10](https://github.com/workmanw/ember-string-ishtmlsafe-polyfill/pull/10) Bumped major version of ember-cli-dependency-checker to remove deprecation warning (@bartocc)
 - [#9](https://github.com/workmanw/ember-string-ishtmlsafe-polyfill/pull/9) Change to use Chrome for CI testing (@oskarrough)
-
 
 ### 2.0.0 (August 8th, 2017)
 
